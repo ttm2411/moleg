@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>대한민국 법제처(MOLEG) - 국민과 함께하는 법제 서비스</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pretendard:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- 상단 네비게이션 헤더 -->
+  <header class="header">
+    <div class="nav-container">
+      <div class="logo-area">
+        <div class="logo-badge">🏛️ MOLEG</div>
+        <div class="logo-text">
+          <h1>대한민국 법제처</h1>
+          <span>Ministry of Government Legislation</span>
+        </div>
+      </div>
+      <nav class="nav-links">
+        <a href="#intro" class="nav-item active">법제처 소개</a>
+        <a href="#duties" class="nav-item">주요 업무</a>
+        <a href="#interactive-role" class="nav-item">국민 체감 법제</a>
+        <a href="#help-finder" class="nav-item highlight-finder">🔍 나를 위한 맞춤 도움 찾기</a>
+        <a href="#trends" class="nav-item">2024-2025 정책동향</a>
+        <a href="#news" class="nav-item">최신 뉴스·보도</a>
+        <a href="#quiz" class="nav-item highlight">상식 퀴즈</a>
+      </nav>
+      <button class="mobile-toggle" id="menuToggle" aria-label="메뉴 열기">☰</button>
+    </div>
+  </header>
+
+  <!-- 메인 히어로 섹션 -->
+  <section class="hero-section" id="intro">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <div class="hero-tag">국무총리 직속 중앙행정기관</div>
+      <h2 class="hero-title">더 좋은 법으로,<br><span class="accent-text">더 행복한 국민의 삶</span>을 만듭니다</h2>
+      <p class="hero-desc">
+        법제처는 정부의 입법활동을 총괄·조정하고 법령심사, 법령해석, 법령정비 등을 수행하는 
+        <strong>대한민국 정부의 법률 전문 기관</strong>입니다.
+      </p>
+      <div class="hero-stats">
+        <div class="stat-card">
+          <div class="stat-number">1948년~</div>
+          <div class="stat-label">정부 수립과 함께한 역사</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">5,500+</div>
+          <div class="stat-label">현행 대한민국 법령 총괄</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">100%</div>
+          <div class="stat-label">공개 국가법령정보센터</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">만 나이 통일</div>
+          <div class="stat-label">국민 체감 법제 혁신 대표 사례</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 법제처 한눈에 보기 카드 -->
+  <section class="summary-section">
+    <div class="container">
+      <div class="card-grid-3">
+        <div class="info-card">
+          <div class="card-icon">📜</div>
+          <h3>"법률의 문지기이자 설계자"</h3>
+          <p>각 정부 부처에서 만드는 모든 법률안과 대통령령은 국무회의에 올라가기 전 반드시 법제처의 꼼꼼한 심사를 거칩니다.</p>
+        </div>
+        <div class="info-card">
+          <div class="card-icon">⚖️</div>
+          <h3>"공정하고 객관적인 법령 유권해석"</h3>
+          <p>행정기관 간 법 해석 다툼이 있거나 법 조항이 모호할 때 국민의 권익을 최우선으로 유권해석을 내려 혼란을 해소합니다.</p>
+        </div>
+        <div class="info-card">
+          <div class="card-icon">💡</div>
+          <h3>"어려운 한자어·일본식 표현 개선"</h3>
+          <p>'알기 쉬운 법령 만들기' 사업을 통해 누구나 읽고 이해하기 쉬운 우리말 법령으로 끊임없이 다듬어 나갑니다.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 주요 업무 섹션 -->
+  <section class="section duties-section" id="duties">
+    <div class="container">
+      <div class="section-header">
+        <span class="sub-heading">KEY MISSIONS</span>
+        <h2 class="main-heading">법제처는 어떤 일을 하나요?</h2>
+        <p class="section-intro">국민의 권익을 보호하고 국가 행정의 합법성을 지키는 핵심 5대 임무입니다.</p>
+      </div>
+
+      <div class="tabs-container">
+        <div class="tab-buttons" role="tablist">
+          <button class="tab-btn active" data-tab="tab-1">1. 정부입법 총괄·조정</button>
+          <button class="tab-btn" data-tab="tab-2">2. 정부 법령안 심사</button>
+          <button class="tab-btn" data-tab="tab-3">3. 행정법령 유권해석</button>
+          <button class="tab-btn" data-tab="tab-4">4. 법령정비 및 알기 쉬운 법령</button>
+          <button class="tab-btn" data-tab="tab-5">5. 국가법령정보 대국민 서비스</button>
+        </div>
+
+        <div class="tab-content active" id="tab-1">
+          <div class="duty-box">
+            <div class="duty-details">
+              <span class="badge">입법 총괄</span>
+              <h3>국정과제와 정책이 원활하게 법제화되도록 기획·조율</h3>
+              <p>각 부처의 연간 정부입법계획을 수립·종합하고, 국회에서 법안이 신속하고 합리적으로 통과될 수 있도록 범정부 입법추진 현황을 관리합니다.</p>
+              <ul class="check-list">
+                <li>연도별 정부입법계획 총괄 수립 및 추진상황 점검</li>
+                <li>부처 간 정책 이견 조율 및 쟁점 법안 사전 협의</li>
+                <li>국회 회기별 우선순위 법률안 입법 지원 지원단 운영</li>
+              </ul>
+            </div>
+            <div class="duty-graphic">
+              <div class="graphic-node">정부 부처 입법안 제안</div>
+              <div class="graphic-arrow">⬇️</div>
+              <div class="graphic-node highlight-node">법제처 입법계획 조정 & 심사</div>
+              <div class="graphic-arrow">⬇️</div>
+              <div class="graphic-node">국무회의 상정 & 국회 제출</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-content" id="tab-2">
+          <div class="duty-box">
+            <div class="duty-details">
+              <span class="badge">위헌·위법 방지</span>
+              <h3>국민의 기본권을 침해하지 않도록 철저한 사전 심사</h3>
+              <p>헌법 정신에 부합하는지, 상위법에 위배되지 않는지, 다른 법률과 충돌하지 않는지 엄격하고 객관적으로 검증합니다.</p>
+              <ul class="check-list">
+                <li>법률안, 대통령령, 총리령·부령 등 모든 정부 법령안 심사</li>
+                <li>과도한 규제 및 불합리한 행정편의주의 조항 사전 차단</li>
+                <li>조례·규칙 등 지방자치단체의 자치법규 입안 컨설팅 지원</li>
+              </ul>
+            </div>
+            <div class="duty-graphic">
+              <div class="check-box-preview">
+                <div class="check-item">✅ 헌법 및 상위법령 위반 여부 검토</div>
+                <div class="check-item">✅ 기본권 침해 및 과잉규제 요소 검토</div>
+                <div class="check-item">✅ 타 법률과의 조화 및 체계 정합성 검토</div>
+                <div class="check-item">✅ 문장 및 용어의 명확성·순화 검토</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-content" id="tab-3">
+          <div class="duty-box">
+            <div class="duty-details">
+              <span class="badge">신뢰받는 법치</span>
+              <h3>법령 해석을 둘러싼 행정청과 국민의 갈등 해결</h3>
+              <p>행정기관 상호 간 또는 민원인과 지자체 간에 법령 조항의 의미가 애매할 때 공정하고 권위 있는 법령해석을 제공합니다.</p>
+              <ul class="check-list">
+                <li>법령해석심의위원회를 통한 민간 전문가 중심의 객관적 심의</li>
+                <li>국민의 권익을 구제하고 소송 비용을 덜어주는 사전 분쟁 예방</li>
+                <li>소극 행정을 방지하고 적극 행정을 뒷받침하는 법령 자문</li>
+              </ul>
+            </div>
+            <div class="duty-graphic">
+              <div class="stat-highlight">
+                <span class="huge-text">연 300+</span>
+                <p>민관 합동 법령해석 심의 안건 처리</p>
+                <span class="sub-text">소송까지 가지 않고 행정단계에서 권익 구제</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-content" id="tab-4">
+          <div class="duty-box">
+            <div class="duty-details">
+              <span class="badge">국민 편의</span>
+              <h3>시대 뒤떨어진 낡은 규제 폐지와 쉬운 우리말 법령</h3>
+              <p>어려운 법률 용어를 순화하고, 국민 생활을 불편하게 하거나 소상공인·청년에게 걸림돌이 되는 숨은 규제를 적극 발굴해 고칩니다.</p>
+              <ul class="check-list">
+                <li>만 나이 통일법 시행 (연령 계산 혼선 해소)</li>
+                <li>어려운 한자어, 일본식 한자어, 전문용어 쉬운 우리말 정비</li>
+                <li>소상공인 영업부담 완화 및 자격·인증 기준 합리화</li>
+              </ul>
+            </div>
+            <div class="duty-graphic">
+              <div class="word-card-compare">
+                <div class="word-item before">
+                  <span class="tag-old">기존 법령어</span>
+                  <strong>계자(階梯) / 부과(敷課)</strong>
+                  <p>이해하기 어려운 한자식 표현</p>
+                </div>
+                <div class="word-arrow">➡️</div>
+                <div class="word-item after">
+                  <span class="tag-new">순화된 표현</span>
+                  <strong>사다리 / 매기다</strong>
+                  <p>국민 누구나 읽기 편한 쉬운 법</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-content" id="tab-5">
+          <div class="duty-box">
+            <div class="duty-details">
+              <span class="badge">디지털 플랫폼</span>
+              <h3>국가법령정보센터 (law.go.kr) 운영</h3>
+              <p>대한민국의 모든 법령, 판례, 조례, 행정규칙을 언제 어디서나 무료로 검색하고 활용할 수 있는 법률 빅데이터 허브를 운영합니다.</p>
+              <ul class="check-list">
+                <li>법률, 시행령, 시행규칙, 자치법규 원클릭 연계 검색</li>
+                <li>일상 대화형 AI 법령검색 서비스 지속 고도화</li>
+                <li>공공데이터 개방을 통한 리걸테크(LegalTech) 산업 생태계 지원</li>
+              </ul>
+            </div>
+            <div class="duty-graphic">
+              <div class="law-portal-card">
+                <div class="law-portal-header">🌐 국가법령정보센터</div>
+                <div class="law-search-box">
+                  <span>🔍 일상어로 법률을 검색해보세요</span>
+                </div>
+                <div class="law-badges">
+                  <span>#법률</span> <span>#조례</span> <span>#판례</span> <span>#행정규칙</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- 국민 체감 인터랙티브 시뮬레이터 -->
+  <section class="section interactive-section" id="interactive-role">
+    <div class="container">
+      <div class="section-header">
+        <span class="sub-heading">CITIZEN EXPERIENCE</span>
+        <h2 class="main-heading">내 삶에 닿는 법제처의 손길</h2>
+        <p class="section-intro">나는 어떤 상황일까요? 관심 있는 대상자를 클릭하여 실질적인 법제처의 혜택을 확인해보세요.</p>
+      </div>
+
+      <div class="persona-selector">
+        <button class="persona-btn active" data-target="business">👨‍🍳 소상공인·자영업자</button>
+        <button class="persona-btn" data-target="youth">🎓 청년·취업준비생</button>
+        <button class="persona-btn" data-target="consumer">🛒 일반 소비자·직장인</button>
+        <button class="persona-btn" data-target="local">🏡 지방자치단체·주민</button>
+      </div>
+
+      <div class="persona-card-display" id="personaResult">
+        <!-- JS로 동적 렌더링 -->
+      </div>
+    </div>
+  </section>
+
+  <!-- 대국민 맞춤 지원 체크리스트 & 설문 (Help Finder) -->
+  <section class="section help-finder-section" id="help-finder">
+    <div class="container">
+      <div class="section-header">
+        <span class="sub-heading">CITIZEN SERVICE FINDER</span>
+        <h2 class="main-heading">나는 법제처로부터 어떤 도움을 받을 수 있을까?</h2>
+        <p class="section-intro">현재 겪고 계신 상황이나 관심사를 체크해 보세요. 법제처가 제공하는 즉각적인 솔루션과 바로가기 창구를 찾아드립니다.</p>
+      </div>
+
+      <div class="finder-wrapper">
+        <div class="finder-card">
+          <div class="finder-intro">
+            <span class="finder-badge">간편 체크리스트 (다중 선택 가능)</span>
+            <h3>당신의 현재 고민이나 필요한 정보를 선택해 주세요:</h3>
+          </div>
+
+          <div class="checklist-grid" id="finderChecklist">
+            <label class="check-card">
+              <input type="checkbox" name="help_need" value="dispute_interpret">
+              <div class="check-card-content">
+                <span class="icon">⚖️</span>
+                <div class="text">
+                  <strong>행정기관과 법 해석 다툼이 있어요</strong>
+                  <p>구청이나 부처에서 법을 잘못 해석하여 불이익을 주거나, 규정 의미가 애매해 처벌받을 위기예요.</p>
+                </div>
+              </div>
+            </label>
+
+            <label class="check-card">
+              <input type="checkbox" name="help_need" value="unreasonable_rule">
+              <div class="check-card-content">
+                <span class="icon">📢</span>
+                <div class="text">
+                  <strong>시대착오적·불합리한 규제 법령을 고치고 싶어요</strong>
+                  <p>사업이나 일상생활에 큰 불편을 주는 불필요한 행정 규제나 낡은 법 조항을 제안해 바꾸고 싶어요.</p>
+                </div>
+              </div>
+            </label>
+
+            <label class="check-card">
+              <input type="checkbox" name="help_need" value="new_law_opinion">
+              <div class="check-card-content">
+                <span class="icon">✍️</span>
+                <div class="text">
+                  <strong>새로 만들어지는 정부 법안에 내 의견을 내고 싶어요</strong>
+                  <p>국무회의 상정 전 부처 입법예고 중인 법률·시행령안을 검토하고 국민으로서 찬반 의견을 등록하고 싶어요.</p>
+                </div>
+              </div>
+            </label>
+
+            <label class="check-card">
+              <input type="checkbox" name="help_need" value="daily_law_info">
+              <div class="check-card-content">
+                <span class="icon">📖</span>
+                <div class="text">
+                  <strong>내 상황(부동산, 창업, 임대차 등)에 맞는 법률이 궁금해요</strong>
+                  <p>전문 변호사 조언 전, 일상생활과 직결된 법률 상식과 행동 요령을 알기 쉽게 정리된 글로 보고 싶어요.</p>
+                </div>
+              </div>
+            </label>
+
+            <label class="check-card">
+              <input type="checkbox" name="help_need" value="search_law_data">
+              <div class="check-card-content">
+                <span class="icon">🔍</span>
+                <div class="text">
+                  <strong>대한민국 법령 전문, 판례, 지자체 조례를 찾고 있어요</strong>
+                  <p>현행 법률 조문, 시행규칙, 행정규칙 원문 또는 AI로 일상어 검색을 통해 연관 법령을 찾고 싶어요.</p>
+                </div>
+              </div>
+            </label>
+
+            <label class="check-card">
+              <input type="checkbox" name="help_need" value="local_counsel">
+              <div class="check-card-content">
+                <span class="icon">🏛️</span>
+                <div class="text">
+                  <strong>지자체 조례 제정 지원이나 우리 동네 자치법규가 궁금해요</strong>
+                  <p>지방자치단체 조례가 상위법에 위배되는지 검토가 필요하거나 지자체 조례 입안 지원이 필요해요.</p>
+                </div>
+              </div>
+            </label>
+          </div>
+
+          <div class="finder-action-bar">
+            <button class="btn btn-primary btn-large" id="findSolutionBtn">나에게 딱 맞는 법제 지원 확인하기 🎯</button>
+            <button class="btn btn-outline-dark" id="resetChecklistBtn">초기화</button>
+          </div>
+
+          <!-- 맞춤형 결과 영역 -->
+          <div class="finder-result-panel" id="finderResultPanel" style="display: none;">
+            <div class="result-header">
+              <span class="result-tag">분석 완료</span>
+              <h3>국민님을 위해 법제처에서 지원해 드리는 서비스 목록입니다:</h3>
+            </div>
+            <div class="solution-cards-container" id="solutionCardsContainer">
+              <!-- JS 동적 렌더링 -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2024~2025 법제처 핵심 정책 및 최신 동향 -->
+  <section class="section trends-section" id="trends">
+    <div class="container">
+      <div class="section-header">
+        <span class="sub-heading">2024 - 2025 POLICY TRENDS</span>
+        <h2 class="main-heading">법제처 주요 정책 동향</h2>
+        <p class="section-intro">국민의 민생을 살리고 미래 디지털 시대를 선도하는 법제처의 핵심 추진 과제입니다.</p>
+      </div>
+
+      <div class="trends-grid">
+        <div class="trend-card">
+          <div class="trend-num">01</div>
+          <div class="trend-icon">🤖</div>
+          <h3>AI 기반 지능형 법령정보 혁신</h3>
+          <p>
+            전문 법률 용어를 몰라도 "우리 집 앞 불법주차 어떻게 신고해?", "카페 야외 테이블 규제는?" 등 일상어로 검색하면 
+            관련 법령과 조례를 찾아주는 <strong>생성형 AI 대국민 법제 서비스</strong>를 고도화하고 있습니다.
+          </p>
+          <span class="trend-pill">리걸테크 활성화</span>
+        </div>
+
+        <div class="trend-card">
+          <div class="trend-num">02</div>
+          <div class="trend-icon">💼</div>
+          <h3>민생 경제 활력 & 골목상권 규제 개선</h3>
+          <p>
+            소상공인의 생계를 위협하는 경미한 위반행위에 대한 과도한 행정처분 유예, 필수 보수교육 이수기간 완화, 
+            청년 창업자의 불필요한 시설인증 벽체 규제 등을 발굴하여 하위법령을 신속 개정했습니다.
+          </p>
+          <span class="trend-pill">소상공인 부담 완화</span>
+        </div>
+
+        <div class="trend-card">
+          <div class="trend-num">03</div>
+          <div class="trend-icon">🛡️</div>
+          <h3>국민 안심·생활밀착형 법제 정비</h3>
+          <p>
+            음주운전 후 단속을 피하려는 '술타기' 행위 방지 및 처벌 법령화, 전기차 화재 안전관리 법령 정비, 
+            체육시설 장기 휴폐업 시 사전 고지 의무화 등 국민 생활안전과 직결된 법령을 적극 정비합니다.
+          </p>
+          <span class="trend-pill">생활 안전 강화</span>
+        </div>
+
+        <div class="trend-card">
+          <div class="trend-num">04</div>
+          <div class="trend-icon">🗺️</div>
+          <h3>진정한 지방시대를 뒷받침하는 자치법제</h3>
+          <p>
+            각 지방자치단체가 지역의 특수성을 살려 활력 있는 행정을 펼칠 수 있도록 조례 입안 가이드라인을 제공하고, 
+            중앙 법령의 포괄적 위임 방식을 개선하여 자치입법권을 대폭 보장합니다.
+          </p>
+          <span class="trend-pill">지방자치권 보장</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 최신 뉴스 기사 및 보도자료 (URL 연계) -->
+  <section class="section news-section" id="news">
+    <div class="container">
+      <div class="section-header">
+        <span class="sub-heading">LATEST NEWS & PRESS</span>
+        <h2 class="main-heading">법제처 최신 뉴스 & 주요 보도</h2>
+        <p class="section-intro">클릭하시면 법제처 및 정부 정책브리핑의 공식 보도자료와 뉴스 기사로 바로 이동합니다.</p>
+      </div>
+
+      <div class="news-filter">
+        <button class="filter-btn active" data-filter="all">전체보기</button>
+        <button class="filter-btn" data-filter="official">공식 보도자료</button>
+        <button class="filter-btn" data-filter="life">생활밀착 법령</button>
+        <button class="filter-btn" data-filter="reform">규제개혁·AI</button>
+      </div>
+
+      <div class="news-grid" id="newsContainer">
+        <!-- JS로 실제 URL을 포함한 뉴스 기사 카드 렌더링 -->
+      </div>
+
+      <div class="portal-cta">
+        <div class="cta-text">
+          <h3>더 많은 법령 소식과 공식 원문이 궁금하신가요?</h3>
+          <p>법제처 공식 누리집과 대한민국 정책브리핑에서 실시간 입법 동향과 공고를 확인하세요.</p>
+        </div>
+        <div class="cta-buttons">
+          <a href="https://www.moleg.go.kr/_kor/bbs/list.do?bbsId=BBSMSTR_000000000006&menuId=OOP0030101" target="_blank" rel="noopener noreferrer" class="btn btn-primary">법제처 보도자료 포털 ↗</a>
+          <a href="https://www.law.go.kr" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">국가법령정보센터 ↗</a>
+          <a href="https://www.korea.kr" target="_blank" rel="noopener noreferrer" class="btn btn-outline">대한민국 정책브리핑 ↗</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 법제 상식 퀴즈 인터랙션 -->
+  <section class="section quiz-section" id="quiz">
+    <div class="container">
+      <div class="section-header">
+        <span class="sub-heading">FUN QUIZ</span>
+        <h2 class="main-heading">알쏭달쏭 법제처 상식 퀴즈!</h2>
+        <p class="section-intro">간단한 퀴즈를 풀며 법제처에 대해 더 쉽고 재미있게 알아보세요.</p>
+      </div>
+
+      <div class="quiz-wrapper">
+        <div class="quiz-card" id="quizCard">
+          <div class="quiz-progress" id="quizProgress">문제 1 / 3</div>
+          <h3 class="quiz-question" id="quizQuestion">질문이 여기에 표시됩니다.</h3>
+          <div class="quiz-options" id="quizOptions">
+            <!-- JS 렌더링 -->
+          </div>
+          <div class="quiz-feedback" id="quizFeedback"></div>
+          <button class="btn btn-primary next-quiz-btn" id="nextQuizBtn" style="display:none;">다음 문제 푸러가기</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 푸터 -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-left">
+        <div class="footer-logo">대한민국 법제처 (MOLEG)</div>
+        <p>세종특별자치시 도움5로 20 정부세종청사 7-1동</p>
+        <p class="copyright">본 웹 애플리케이션은 국민의 법제처 이해를 돕기 위해 순수 표준 웹 규격(HTML, CSS, JS)으로 제작되었습니다.</p>
+      </div>
+      <div class="footer-right">
+        <div class="quick-links">
+          <strong>바로가기 서비스</strong>
+          <ul>
+            <li><a href="https://www.moleg.go.kr" target="_blank" rel="noopener">법제처 대표 누리집</a></li>
+            <li><a href="https://www.law.go.kr" target="_blank" rel="noopener">국가법령정보센터</a></li>
+            <li><a href="https://easylaw.go.kr" target="_blank" rel="noopener">찾기 쉬운 생활법령정보</a></li>
+            <li><a href="https://www.korea.kr" target="_blank" rel="noopener">대한민국 정책브리핑</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
